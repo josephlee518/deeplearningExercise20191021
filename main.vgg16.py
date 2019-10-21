@@ -6,11 +6,6 @@ Simple Cats vs Dogs Exercise
 - With some different Layers (with tf.keras.applications)
     - https://keras.io/applications/ 링크를 참고해서 작성
 """
-"""
-VGG16은 인풋이  [(None, 224, 224, 3)] 형태로 이루어져 있어서 224, 224, 3 으로 리사이즈 해야 함.
-ResNet은 인풋이 [(None, 224, 224, 3)] 형태로 이루어져 있어서 224, 224, 3 으로 리사이즈 해야 함.
-- 둘다 인풋값이 같아서 그냥 한번에 리사이즈 하고 다음에 끼워서 사용하면 될 것 같음.
-"""
 
 """
 코드 참고
